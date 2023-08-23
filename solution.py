@@ -4,6 +4,8 @@ decimal = __**__ - 1
 print(decimal)
 print(bin(decimal))
 
+
+
 ### Task 2: Check if the following numbers are even or odd with the bitwise and operator
 
 num1 = 1
@@ -13,12 +15,12 @@ num4 = 4
 num5 = 5
 num6 = 6
 
-print(num1, bin(num1), num1 __ __)
-print(num2, bin(num2), num2 __ __)
-print(num3, bin(num3), num3 __ __)
-print(num4, bin(num4), num4 __ __)
-print(num5, bin(num5), num5 __ __)
-print(num6, bin(num6), num6 __ __)
+print(num1, bin(num1), num1 % 2)
+print(num2, bin(num2), num2 % 2)
+print(num3, bin(num3), num3 % 2)
+print(num4, bin(num4), num4 % 2)
+print(num5, bin(num5), num5 % 2)
+print(num6, bin(num6), num6 % 2)
 
 ### Task 3: Change the value with the xor operator of the following numbers
 
